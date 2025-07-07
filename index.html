@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random-Quote-Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="app-title">Inspiration Hub</h1>
+
+    <section class="quote-box" aria-live="polite">
+      <p id="quote" class="quote-text">Loading...</p>
+      <p id="author" class="quote-author"></p>
+    </section>
+
+    <div class="buttons">
+      <button id="new-quote" class="btn">New Quote</button>
+      <button id="copy-quote" class="btn">Copy Quote</button>
+      <button id="toggle-theme" class="btn">Toggle Dark Mode</button>
+    </div>
+
+    <p id="feedback" class="feedback" aria-live="assertive"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
